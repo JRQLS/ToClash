@@ -10,7 +10,7 @@
 
 下载该文件夹，然后用本地配置文件（json文件）替换export.json文件，为方便使用，推荐仍命名为export.json。之后命令行cd进入该文件夹执行SS_clash.py脚本即可。运行完成后将在同一文件夹生成clash.yml文件，即可使用
 
-###注意：
+### 注意：
 
 这四个文件需在同一文件夹。同时当前脚本仅有auto,Fallback-auto,Proxy三个规则组，有需要自行修改配置文件。
 
@@ -20,7 +20,7 @@
 
 ## SS_clash(from ss subscription)（暂未完成）
 
-###功能：
+### 功能：
 
 支持直接通过ss订阅生成clash配置文件
 
@@ -48,5 +48,5 @@ https://tgbot.lbyczf.com/surge2clash?url=http://example.com
 
 ## 最后：
 
-###有问题发issue，会定期查看
+### 有问题发issue，会定期查看
 
