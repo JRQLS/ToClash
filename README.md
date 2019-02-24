@@ -1,6 +1,6 @@
 # ToClash
 
-## SS_clash(from ss Local configuration file)
+## SS_clash(from ss Local configuration file) （beta）
 
 ### 功能：
 
@@ -18,7 +18,7 @@
 
 
 
-## SS_clash(from ss subscription)（暂未完成）
+## SS_clash(from ss subscription)（beta）
 
 ### 功能：
 
@@ -26,7 +26,11 @@
 
 ### 使用：
 
-下载py脚本，替换脚本内的订阅链接，运行即可（因个人使用的机场连接触发短期订阅数量限制，暂未实现该功能）
+下载py脚本，替换脚本内的订阅链接，运行即可（myssr，老板娘及代码中的公益机场订阅测试皆可）
+
+### 问题：
+
+解码节点名称时因涉及到字符编码问题，会导致部分信息丢失，体现为节点名称可能显示不全
 
 ## Surge_clash(local)
 
