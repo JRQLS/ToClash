@@ -67,11 +67,18 @@ def getNodeR(link):
     protocol = info.split(':')[2]
     method = info.split(':')[3]
     obfs = info.split(':')[4]
-    remark = decodeInfo(formatLink(
-        info.split('&')[2].split('=')[1])).encode('gb18030')
+    remark = getName(formatLink(info.split('&')[2].split('=')[1]))
+
     # print(server, port, method, pwd, protocol, obfs, remark)
     node = [remark, server, port, method, pwd, protocol, obfs]
     return node
+
+
+def getName(info):
+    lens = len(info)
+    lenx = lens - (lens % 4 if lens % 4 else 4)
+    result = base64.b64decode(info[:lenx]).decode('utf-8', errors='ignore')
+    return result
 
 
 def checkNode(node):
@@ -150,8 +157,7 @@ def getClash(nodes):
     # with open("./General.yml", "r") as f:
     #     gener = f.read()
     gener = getBasefile(
-        'https://raw.githubusercontent.com/JRQLS/ToClash/master/SS_clash(from%20ss%20subscription)/General.yml'
-    )
+        'https://raw.githubusercontent.com/JRQLS/ToClash/master/General.yml')
     with open("./clash.yml", "w") as f:
         f.writelines(gener)
 
@@ -162,8 +168,7 @@ def getClash(nodes):
     # with open("./rules.yml", "r") as f:
     #     rules = f.read()
     rules = getBasefile(
-        'https://raw.githubusercontent.com/JRQLS/ToClash/master/SS_clash(from%20ss%20subscription)/rules.yml'
-    )
+        'https://raw.githubusercontent.com/JRQLS/ToClash/master/rules.yml')
     with open("./clash.yml", "a") as f:
         f.writelines(rules)
 
@@ -171,4 +176,6 @@ def getClash(nodes):
 if __name__ == "__main__":
     url = "https://jumpc.xyz/link/6fhH5JIjPQkh5O9y"
     nodes = getAllNodes(url)
+    # for node in nodes:
+    #     print(node)
     getClash(nodes)
