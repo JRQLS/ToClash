@@ -61,8 +61,8 @@ def getNode(link):
 
 def getNodeR(link):
     info = decodeInfo(link)
-    pwd = decodeInfo(info.split('?')[0].split(':')[-1])
-    server = info.split(':')[0]
+    pwd = decodeInfo(info.split('?')[0].split(':')[-1]).split("'")[1]
+    server = info.split(':')[0].split("'")[1]
     port = info.split(':')[1]
     protocol = info.split(':')[2]
     method = info.split(':')[3]
