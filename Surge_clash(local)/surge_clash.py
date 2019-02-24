@@ -106,5 +106,5 @@ def getYml(file):
 
 if __name__ == "__main__":
     # 本地文件
-    file = "./MySSR.conf"
+    file = "./surge.conf"
     getYml(file)
