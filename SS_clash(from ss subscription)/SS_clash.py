@@ -176,7 +176,7 @@ def getClash(nodes):
 
 
 if __name__ == "__main__":
-    url = "https://jumpc.xyz/link/6fhH5JIjPQkh5O9y"
+    url = "https://jumpc.xyz/link/6fhH5kh5O9y"
     nodes = getAllNodes(url)
 
     getClash(nodes)
