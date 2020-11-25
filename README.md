@@ -1,6 +1,6 @@
 # ToClash
 
-## SS_clash(from ss Local configuration file) （beta）（Special to DUOTAIers）
+## SS_clash(from ss Local configuration file) (Special to DUOTAIers)
 
 ### 功能：
 
