@@ -1,14 +1,14 @@
 # ToClash
 
-## SS_clash(from ss Local configuration file) （beta）
+## SS_clash(from ss Local configuration file) （beta）（Special to DUOTAIers）
 
 ### 功能：
 
-该文件夹实现将ss本地配置文件转换为clash支持的配置文件
+该文件夹实现将 ss 本地配置文件转换为 Clash 支持的配置文件。
 
 ### 使用：
 
-下载该文件夹，然后用本地配置文件（`.json`文件）替换 `export.json` 文件，为方便使用，推荐仍命名为 `export.json` 。之后命令行 `cd` 进入该文件夹执行 `SS_clash.py` 脚本即可。运行完成后将在同一文件夹生成 `config.yaml` 文件，即可使用
+下载该文件夹，然后用本地配置文件（ `.json` 文件）替换 `export.json` 文件，为方便使用，推荐仍命名为 `export.json` 。之后命令行 `cd` 进入该文件夹执行 `SS_clash.py` 脚本即可。运行完成后将在同一文件夹生成 `config.yaml` 文件，即可使用。
 
 ### 注意：
 
