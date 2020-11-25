@@ -8,7 +8,7 @@
 
 ### 使用：
 
-下载该文件夹，然后用本地配置文件（json文件）替换export.json文件，为方便使用，推荐仍命名为export.json。之后命令行cd进入该文件夹执行SS_clash.py脚本即可。运行完成后将在同一文件夹生成clash.yml文件，即可使用
+下载该文件夹，然后用本地配置文件（`.json`文件）替换 `export.json` 文件，为方便使用，推荐仍命名为 `export.json` 。之后命令行 `cd` 进入该文件夹执行 `SS_clash.py` 脚本即可。运行完成后将在同一文件夹生成 `config.yaml` 文件，即可使用
 
 ### 注意：
 
