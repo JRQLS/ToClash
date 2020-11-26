@@ -1,4 +1,4 @@
-Rule:
+rules:
 # Apple
 - DOMAIN,hls.itunes.apple.com,Proxy
 - DOMAIN,itunes.apple.com,Proxy
