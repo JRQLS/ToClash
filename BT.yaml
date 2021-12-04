@@ -1,0 +1,11 @@
+payload:
+  # BT
+  - DOMAIN-SUFFIX,acg.rip
+  - DOMAIN-SUFFIX,bangumi.moe
+  - DOMAIN-SUFFIX,eztv.io
+  - DOMAIN-KEYWORD,mikanani
+  - DOMAIN-KEYWORD,moviejie
+  - DOMAIN-SUFFIX,skyeysnow.com
+  - DOMAIN-SUFFIX,subdh.com
+  - DOMAIN-KEYWORD,torrent
+  - DOMAIN-KEYWORD,tracker
