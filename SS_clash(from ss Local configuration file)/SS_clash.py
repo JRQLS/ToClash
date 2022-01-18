@@ -88,7 +88,7 @@ def setNodes(nodes):
                 server) + ", port: " + str(port) + ", cipher: " + str(
                     cipher) + ", password: " + str(pwd) + " }\n"
         proxies.append(proxy)
-    proxies.insert(0, '\nProxy:\n')
+    proxies.insert(0, '\nproxies:\n')
     return proxies
 
 
@@ -108,7 +108,7 @@ def setPG(nodes):
 
     Proxy = "- { name: 'Proxy', type: select, proxies: " + str(
         proxy_names) + " }\n"
-    ProxyGroup = ['\nProxy Group:\n', auto, Fallback, Proxy]
+    ProxyGroup = ['\nproxy-groups:\n', auto, Fallback, Proxy]
     # ProxyGroup.insert(0, 'Proxy Group:\n')
     return ProxyGroup
 
@@ -116,16 +116,16 @@ def setPG(nodes):
 def getClash(nodes):
     with open("./General.yml", "r") as f:
         gener = f.read()
-    with open("./clash.yml", "w") as f:
+    with open("./config.yaml", "w") as f:
         f.writelines(gener)
 
     info = setNodes(nodes) + setPG(nodes)
-    with open("./clash.yml", "a") as f:
+    with open("./config.yaml", "a") as f:
         f.writelines(info)
 
     with open("./rules.yml", "r") as f:
         rules = f.read()
-    with open("./clash.yml", "a") as f:
+    with open("./config.yaml", "a") as f:
         f.writelines(rules)
 
 
