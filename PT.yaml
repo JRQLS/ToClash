@@ -29,12 +29,12 @@ payload:
   - DOMAIN-KEYWORD,hellodic
   - DOMAIN-KEYWORD,keepfrds
   - DOMAIN-KEYWORD,lemonhd
-  - DOMAIN-KEYWORD,moecat
   - DOMAIN-KEYWORD,m-team
   - DOMAIN-KEYWORD,nanyangpt
   - DOMAIN-KEYWORD,nicept
   - DOMAIN-SUFFIX,ns.ci
   - DOMAIN-KEYWORD,ourbits
+  - DOMAIN-SUFFIX,ourhelp.club
   - DOMAIN-SUFFIX,open.cd
   - DOMAIN-SUFFIX,oshen.win
   - DOMAIN-KEYWORD,privatehd
